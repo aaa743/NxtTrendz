@@ -1,0 +1,646 @@
+{
+  "test_case_results": [
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_56",
+      "evaluation_result": "CORRECT",
+      "title": "When a product is added to the cart, the CartRoute should consist of at least two HTML list items and the cartList should be rendered using a unique key as a prop for each cart item",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_57",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"/cart\" is provided in the URL by an unauthenticated user then the page should be navigated to LoginRoute and consist of an HTML image element with the given login image URL as src and alt as \"website login\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_58",
+      "evaluation_result": "CORRECT",
+      "title": "When the cart is empty, the CartRoute should consist of an HTML image element with alt attribute value as \"cart empty\" and src attribute value as URL for cart empty image",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_59",
+      "evaluation_result": "CORRECT",
+      "title": "When the cart is empty, the CartRoute should consist of an HTML main heading element with text content as \"Your Cart Is Empty\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_60",
+      "evaluation_result": "CORRECT",
+      "title": "When the cart is empty, the CartRoute should consist of an HTML button element with text content as \"Shop Now\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_61",
+      "evaluation_result": "CORRECT",
+      "title": "When the cart is empty, the CartRoute should consist of an HTML button element with text content as \"Shop Now\" and it is wrapped with Link from react-router-dom",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_62",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Shop Now\" button is clicked then the page should be navigated to ProductsRoute and then the products received in the HTTP GET request response should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_63",
+      "evaluation_result": "CORRECT",
+      "title": "When the products are added to the cart, the count of the cart items should be displayed in the header after the cart link",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_64",
+      "evaluation_result": "CORRECT",
+      "title": "When a product is added to the cart, the CartRoute should consist of an HTML main heading element with text content as \"My Cart\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_65",
+      "evaluation_result": "CORRECT",
+      "title": "When a product is added to the cart, the CartRoute should consist of an HTML button element with text content as \"Remove All\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_66",
+      "evaluation_result": "CORRECT",
+      "title": "When a product is added to the cart, the CartRoute should consist of an HTML unordered list to display the list of cart items",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_67",
+      "evaluation_result": "CORRECT",
+      "title": "When a product is added to the cart, the page should consist of an HTML image element with alt attribute value as \"title\" of the product added in the cart and src value as \"imageUrl\" for product added",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_68",
+      "evaluation_result": "CORRECT",
+      "title": "When a product is added to the cart, the page should consist of an HTML element with text content as \"title\" of the product added",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_69",
+      "evaluation_result": "CORRECT",
+      "title": "When a product is added to the cart, then the page should consist of an HTML element with text content as \"brand\" of the product added",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_70",
+      "evaluation_result": "CORRECT",
+      "title": "JSX code implementation for Cart Item Details should use \"BsPlusSquare\" and \"BsDashSquare\" from the react-icons package ",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_71",
+      "evaluation_result": "CORRECT",
+      "title": "When a product is added to the cart, the page should consist of an HTML button element with data-testid \"plus\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_72",
+      "evaluation_result": "CORRECT",
+      "title": "When a product is added to the cart, the page should consist of an HTML button element with data-testid \"minus\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_73",
+      "evaluation_result": "CORRECT",
+      "title": "When a product is added to the cart, the page should consist of an HTML paragraph element with text content as quantity of the product added",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_74",
+      "evaluation_result": "CORRECT",
+      "title": "When a product is added to the cart, then the page should consist of an HTML paragraph element with text content as price of the product added",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_75",
+      "evaluation_result": "CORRECT",
+      "title": "JSX code implementation for Cart Item Details should use \"AiFillCloseCircle\" from the react-icons package ",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_76",
+      "evaluation_result": "CORRECT",
+      "title": "When a product is added to the cart, then the page should consist of an HTML button element with data-testid \"remove\" should be displayed ",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_77",
+      "evaluation_result": "CORRECT",
+      "title": "If the cart page is not empty, the page must consist of an HTML button element with text \"Checkout\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_78",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button element with text \"Checkout\" is clicked, a React Popup must appear on the screen",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_79",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button element with text \"Checkout\" is clicked, a React Popup must appear on the screen and there must be a \"Net Banking\" payment option in the popup which is disabled",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_80",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button element with text \"Checkout\" is clicked, a React Popup must appear on the screen and there must be a \"Cash on Delivery\" payment option in the popup which is enabled and not selected",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_81",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button element with text \"Checkout\" is clicked, a React Popup must appear on the screen and a button with text \"Confirm Order\" must be present in the popup",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_82",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button element with text \"Checkout\" is clicked, a React Popup must appear on the screen and if the \"Cash on Delivery\" payment option is not selected, the button with text \"Confirm Order\" must be disabled",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_83",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button element with text \"Confirm Order\" is clicked in the Popup element, a text \"Your order has been placed successfully\" must appear in the popup itself",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_84",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button element with text \"Checkout\" is clicked, a React Popup must appear on the screen and total cost must be present in the Popup",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_85",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button element with text \"Checkout\" is clicked, a React Popup must appear on the screen and number of items must be present in the Popup",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_86",
+      "evaluation_result": "CORRECT",
+      "title": "When a product is added to the cart, then the page should consist of an HTML main heading element with text content as \"Order Total\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_87",
+      "evaluation_result": "CORRECT",
+      "title": "When a product is added to the cart, then the page should consist of an HTML main heading element with text content as total amount of the items in the cart",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_88",
+      "evaluation_result": "CORRECT",
+      "title": "When a product is added to the cart, then the page should consist of an HTML paragraph element with cart items count as \"1\" and ending with \"Items in cart\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_89",
+      "evaluation_result": "CORRECT",
+      "title": "When multiple products are added to the cart, then the page should consist of an HTML paragraph element with text content as the number of items in the cart ",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_90",
+      "evaluation_result": "CORRECT",
+      "title": "When a product is added to the cart, the page should consist of an HTML button element with text content as \"Checkout\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_91",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button element with data-testid \"plus\" is clicked, then the \"incrementCartItemQuantity\" function in \"CartContext\" should be called",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_92",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button element with data-testid \"minus\" is clicked, then the \"decrementCartItemQuantity\" function in \"CartContext\" should be called",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_93",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button element with data-testid \"plus\" is clicked, the quantity should be incremented by one",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_94",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button element with data-testid \"minus\" is clicked, the quantity should be decremented by one",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_95",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button element with data-testid \"minus\" is clicked, if the quantity is one then the item should be removed from the cart list and the page should consist of an HTML main heading element with text content as \"Your Cart Is Empty\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_96",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button element with data-testid \"plus\" is clicked, the price of the cart item should be updated accordingly ",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_97",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button element with data-testid \"minus\" is clicked, the price of the cart item should be updated accordingly ",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_98",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button element with data-testid \"plus\" is clicked, the order total amount should be updated accordingly ",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_99",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button element with data-testid \"minus\" is clicked, the order total amount should be updated accordingly ",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_100",
+      "evaluation_result": "CORRECT",
+      "title": "When a product is added multiple times in to the cart, the quantity of the respective item should be incremented accordingly",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_101",
+      "evaluation_result": "CORRECT",
+      "title": "When a product is added multiple times in to the cart, the count of the cart items displayed in the header should not be incremented",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_102",
+      "evaluation_result": "CORRECT",
+      "title": "When multiple products are added to the cart, the count of the cart items should be updated in the header after the cart link",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_103",
+      "evaluation_result": "CORRECT",
+      "title": "When the remove icon is clicked, then the \"removeCartItem\" function in \"CartContext\" should be called",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_104",
+      "evaluation_result": "CORRECT",
+      "title": "When the remove icon is clicked, then the respective cart item should be removed from the cart items list and the page should consist of an HTML main heading element with text content as \"Your Cart Is Empty\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_105",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Remove All\" button is clicked, then the \"removeAllCartItems\" function in \"CartContext\" should be called",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_106",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Remove all\" button is clicked, then all the items should be removed from the cart list and the page should consist of an HTML main heading element with text content as \"Your Cart Is Empty\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_6",
+      "evaluation_result": "CORRECT",
+      "title": "When HTTP GET request made to productDetailsApiUrl is successful, then the page should consist of at least two HTML list items, and the similar products list should be rendered using a unique key as a prop for each similar product item",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_7",
+      "evaluation_result": "CORRECT",
+      "title": "When the Product Item Details Route is accessed, an HTTP GET request should be made to productDetailsApiUrl with the product id as path parameter",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_8",
+      "evaluation_result": "CORRECT",
+      "title": "When the Product Item Details Route is accessed, an HTML container element with data-testid attribute value as \"loader\" should be displayed while the API call is in progress",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_9",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Product Item Details route is successful, an HTML image element with alt as \"product\" and src equal to the value of the key \"image_url\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_10",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Product Item Details route is successful, an HTML main heading element with text content as the value of the key \"title\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_11",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Product Item Details route is successful, an HTML paragraph element with text content as the value of the key \"price\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_12",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Product Item Details route is successful, an HTML paragraph element with text content as the value of the key \"rating\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_13",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Product Item Details route is successful, an HTML paragraph element with text content as the value of the key \"total_reviews\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_14",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Product Item Details route is successful, an HTML paragraph element with text content as the value of the key \"description\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_15",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Product Item Details route is successful, an HTML paragraph element with text content as the value of the key \"availability\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_16",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Product Item Details route is successful, an HTML paragraph element with text content as the value of the key \"brand\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_17",
+      "evaluation_result": "CORRECT",
+      "title": "JSX code implementation for Product Item Details should use \"BsPlusSquare\" and \"BsDashSquare\" from the react-icons package ",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_18",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Product Item Details route is successful, an HTML button element with data-testid \"plus\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_19",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Product Item Details route is successful, an HTML button element with data-testid \"minus\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_20",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Product Item Details route is successful, an HTML paragraph element with text content as \"1\" for quantity should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_21",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request in the Product Item Details route is successful, an HTML button element with text content as \"ADD TO CART\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_22",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button with data-testid \"plus\" is clicked, the quantity should be incremented by one",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_23",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button with data-testid \"minus\" is clicked, the quantity should be decremented by one",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_24",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTML button with data-testid \"minus\" is clicked, the quantity should not be decremented below one",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_25",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of at least two HTML unordered list elements to display the links in the Header and the list of similar products",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_26",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of at least six HTML list items to display the links in Header and the list of similar products",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_27",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of HTML image elements with alt text starting with \"similar product\" and src as the value of the key \"image_url\" received in the similar_products list received in the response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_28",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of HTML paragraph element with text content as the value of the key \"title\" received in the similar_products list received in the response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_29",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of HTML paragraph element with text content as the value of the key \"brand\" received in the similar_products list received in the response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_30",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of HTML paragraph element with text content as the value of the key \"rating\" received in the similar_products list received in the response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_31",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of HTML paragraph element with text content as the value of the key \"price\" received in the similar_products list received in the response",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_41",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"/products\" is provided in the URL by an unauthenticated user then the page should be redirected to LoginRoute and consists of an HTML image element with the given login image URL as src and alt as \"website login\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_42",
+      "evaluation_result": "CORRECT",
+      "title": "Products Route should consist of HTML input element with type attribute value as \"search\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_43",
+      "evaluation_result": "CORRECT",
+      "title": "Products Route should consist of HTML paragraph elements with text content equal to the \"name\" value of each item in categoryOptions provided",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_44",
+      "evaluation_result": "CORRECT",
+      "title": "Products Route should consist of HTML image elements with alt value equal to \"rating {ratingId}\" and src value equal to \"imageUrl\" value of each item in ratingsList provided",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_45",
+      "evaluation_result": "CORRECT",
+      "title": "Products Route should consist of HTML button element with text content as \"Clear Filters\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_46",
+      "evaluation_result": "CORRECT",
+      "title": "When Products Route is opened, an HTTP GET request should be made to productsApiUrl with all the query parameters and their initial values",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_47",
+      "evaluation_result": "CORRECT",
+      "title": "When the Products Route is opened, then the products received in the HTTP GET request response should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_48",
+      "evaluation_result": "CORRECT",
+      "title": "When a value is provided in the HTML input element for search and the Enter key is pressed, an HTTP GET request should be made with the value provided in the HTML input element as the value to query parameter \"title_search\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_49",
+      "evaluation_result": "CORRECT",
+      "title": "When a category is clicked, an HTTP GET request should be made with the id of the category as the value to query parameter \"category\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_50",
+      "evaluation_result": "CORRECT",
+      "title": "When a rating is clicked, an HTTP GET request should be made with the id of the rating as the value to query parameter \"rating\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_51",
+      "evaluation_result": "CORRECT",
+      "title": "When all the filters in Products Route are applied and the \"Clear Filters\" button is clicked, then an HTTP GET request should be made to productsApiUrl with initial values of the query parameters",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_52",
+      "evaluation_result": "CORRECT",
+      "title": "Each product card should be wrapped with the Link from react-router-dom",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_53",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request made is unsuccessful, then failure view should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_54",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request made to productsApiUrl returns products list as empty, then no products view should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_55",
+      "evaluation_result": "CORRECT",
+      "title": "When a Product card is clicked in Products Route, then the page should be navigated to the Product Item Details route with \"/product-details/:id\" in the URL path",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_1",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"/product-details/:id\" is provided in the URL by an unauthenticated user then the page should be redirected to LoginRoute and consists of an HTML image element with the given login image URL as src and alt text as \"website login\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_2",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request made in the Product Item Details Route gets the response status as 404, then an HTML image element with alt as \"error view\" and src as the URL for the error view image should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_3",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request made in Product Item Details Route gets the response status as 404, then an HTML main heading element with text content as \"Product Not Found\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_4",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request made in Product Item Details Route gets the response status as 404, then an HTML button element with text content as \"Continue Shopping\" should be displayed",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_5",
+      "evaluation_result": "CORRECT",
+      "title": "When the HTTP GET request made in Product Item Details Route gets the response status as 404, and \"Continue Shopping\" button is clicked, then the page should be navigated to ProductsRoute",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_34",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"/\" is provided in the URL by an unauthenticated user then the page should be redirected to LoginRoute and consist is an HTML input element with label text as \"USERNAME\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_35",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"/\" is provided in the URL by an authenticated user then the page should be navigated to HomeRoute and consist of an HTML image element with the given home image URL as src and alt as \"clothes that get you noticed\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_36",
+      "evaluation_result": "CORRECT",
+      "title": "When the Products link is clicked then the page should be navigated to ProductsRoute and consist of an HTML main heading element with text content as \"Category\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_37",
+      "evaluation_result": "CORRECT",
+      "title": "When the Cart link is clicked then the page should be navigated to CartRoute and consist of an HTML image element with the given image URL as src and alt as \"cart\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_38",
+      "evaluation_result": "CORRECT",
+      "title": "When the logout button is clicked then the Cookies.remove() method should be called with the argument as \"jwt_token\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_39",
+      "evaluation_result": "CORRECT",
+      "title": "When the logout button is clicked then the history.replace() method should be called with the argument \"/login\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_40",
+      "evaluation_result": "CORRECT",
+      "title": "When the logout button is clicked then the page should be navigated to LoginRoute and consist of an HTML button element with \"Login\" as text content",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_32",
+      "evaluation_result": "CORRECT",
+      "title": "When an authenticated user tries to access the LoginRoute then the page should be redirected to HomeRoute and consist of an HTML image element with the given image URL as src and alt as \"clothes that get you noticed\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_33",
+      "evaluation_result": "CORRECT",
+      "title": "When a valid username and password are provided, the login button is clicked and the user has successfully logged in then the history.replace() method should be called with the argument \"/\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHEHQV_TEST_107",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"/bad-path\" is provided in the URL then the page should be navigated to NotFoundRoute and consist of an HTML image element with the given not found image URL as src and alt as \"not found\"",
+      "errorMessages": []
+    }
+  ]
+}
